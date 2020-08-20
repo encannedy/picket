@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import DataAreaContext from "./components/DataAreaContext";
+import DataAreaContext from "./dataAreaContext";
 
-const SearchName = () => {
+const SearchUser = () => {
     const context = useContext(DataAreaContext);
 
     return (
@@ -28,4 +28,4 @@ const SearchName = () => {
     )
 }
 
-export default SearchName;
+export default SearchUser;
