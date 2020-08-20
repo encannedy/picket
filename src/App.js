@@ -1,8 +1,9 @@
 import React from "react";
 // import SearchResultContainer from "./components/searchResultContainer";
-import Header from "./components/Header"
+
 import SearchResult from "./components/searchResult"
 import API from './utils/API';
+import Jumbotron from "./components/jumbotron";
 
 
 class App extends React.Component {
@@ -66,9 +67,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Jumbotron />
         <input type="search" onChange={this.search} />
-        <button onClick={this.sort}>Sort by first name</button>
+        <button onClick={this.sort}>Sort </button>
         <SearchResult users={this.state.employees} />
       </div>
     );

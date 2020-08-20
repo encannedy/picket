@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import DataAreaContext from "./dataAreaContext";
 
+
 const SearchUser = () => {
     const context = useContext(DataAreaContext);
 
